@@ -1,0 +1,1125 @@
+
+
+*{
+    margin: 0;
+}
+
+.head{
+    display: flex;
+    border: 1px solid;
+    justify-content: space-between;
+    height: 40px;
+    width :100%;
+    margin-bottom: 10px;
+    background-color: black;
+
+
+}
+ .head p{
+    color: white;
+    font-size: small;
+    margin-left: 40%;
+    padding-top: 10px;
+}
+
+.head p span{
+text-decoration: underline;
+}
+
+.edit{ background-color: black;
+
+    color: aliceblue; 
+}
+
+nav{width: 100%;
+    height: 0px;
+background-color: white;
+display: flex;
+justify-content: space-around;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+
+}
+
+nav ul li{
+    list-style:none;
+}
+
+.search {display: flex;
+    justify-content: space-around;
+    
+}
+.emg{padding-right: 300%;
+    width: 80%;
+    display: flex;
+    height: 40px;
+    font-size: smaller;
+    border: none;
+    border-radius: 20px;
+}
+
+h1{
+    margin-left: 30px
+}
+nav.box{
+width: 500px;
+height: 30px;
+}
+
+.section-two{
+background-image: url(./image/bckground.png);
+height: 100vh;
+margin-top: 60px;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.FIND h1{
+font-size: 100px;    
+padding-top: 60px;
+font-family: Arial, Helvetica, sans-serif;
+color: #000000;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.FIND p{
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-small;
+    margin-left: 35px;
+}
+
+.shop{
+    border: 1px solid color( black);
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    background: black;
+    color: aliceblue;
+}
+
+.price{ 
+    margin-top: 20px;
+    display: flex;
+    width:40%;
+    height: 10%;
+    justify-content:space-between;
+
+}
+
+
+.int{
+    margin-left: 20px;
+    margin-top: 40px;
+    border-left-width: 2px dashed;
+
+}
+
+.qlty{
+    margin-top: 40px;
+    border-left-width: 2px dashed;
+}
+
+
+.happy{
+    margin-top: 40px;
+    border-left-width: 2px dashed;
+}
+
+
+.blackbar{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    width: 100%;
+    height: 80px;
+}
+
+.newa p{margin-top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight:1000;
+    color: #000000;
+text-align: center;
+}
+
+.arival{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.dicount{ 
+    width: 90;
+    display: flex;
+    justify-content: space-evenly;
+}
+.dicount li{
+    list-style: none;
+    font-size: small;
+    text-size-adjust: 20px;
+    text-transform: lowercase;
+    color: #000000;
+    text-align: center;
+}
+
+.star{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cost{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btm{ border-radius: 10px;
+    border: none;
+    background-color: #FF33331A;
+}
+
+.js{
+    text-decoration: line-through;
+}
+
+
+.View{
+    color: #0000001A;
+    padding:10px 30px;
+    margin: 30px auto;
+    border-radius: 25px;
+    display: flex;
+    border: none;
+    color: black;
+    font-size: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.topselling{ margin-top: 60px;
+    color: #000000;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.distop{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.dicrb{
+    width: 90;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dicrb li{
+    list-style: none;
+    font-size: small;
+    text-size-adjust: 20px;
+    text-transform: lowercase;
+    color: #000000;
+    text-align: center;
+
+}
+
+.star1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.discnt{ display: flex;
+    justify-content: space-evenly;
+
+}
+
+.lei{
+    border-radius: 10px;
+    border: none;
+    background-color: #FF33331A;
+}
+
+.le{
+    text-decoration: line-through;
+}
+
+.vew{
+    color: #0000001A;
+    padding:10px 20px;
+    margin: 20px auto;
+    border-radius: 25px;
+    display: flex;
+    border: none;
+    color: black;
+    font-size: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+.cust{ margin-top: 80px;
+background-color: #F0F0F0;
+width: 90%;
+height: 110%;
+margin-left:100px;
+}
+
+.Browse{
+    padding-top: 50px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+}
+
+.gem{  
+    padding-top: 100px;
+    margin-left: 250px;
+}
+
+.casfor{ padding-left: px;
+display: flex;
+
+}
+.pag{
+    display: flex;
+}
+
+.casual casfor img{
+    padding-right: 20px;
+}
+
+
+
+.sec3{
+    width: 100%;
+    height: 90vh;
+}
+
+.our{margin-top: 100px;
+    margin-left: 30px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+    text-align: justify;
+}
+
+
+.arrow{ 
+    float: right;
+}
+
+
+.sar{
+    padding-top: 20px;
+    border-style: hidden;
+    border: 100px 140px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.Sarah{ 
+    border: 80px 100px;
+    justify-content: center;
+    background-color:white;
+    border-color: #F0F0F0;
+    
+
+}
+
+.Alex{background-color:white;
+    justify-content: center;
+    border-radius:10px ;
+    border-color: #F0F0F0;
+}
+
+.jam{ justify-content:center;
+    border-radius:10px;
+    background-color:white;
+    border-color: #F0F0F0;
+}
+
+.stylep{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stay {
+    margin-bottom: 10%;
+    background-color: #000000;
+    border: 50% 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-left: 12%;
+    margin-right: 15%;
+}
+
+.email{ margin-right: 40px;
+    padding: 10px 80px;
+    border-radius:40px;
+    color: #000000;
+
+}
+
+.emai{
+    margin-right: 40px;
+    padding: 15px 95px;
+    border-radius:40px;
+    color:#000000
+
+}
+.email img{
+    size: 20px;
+}
+
+.upto{ color: #F0F0F0;
+    margin-left: 40px;
+    font-size: 43px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.line{ width: 100%;
+    
+    background-color: #F0F0F0;
+
+}
+
+.reserved{
+    margin-top:10%;
+justify-content: space-between;
+display: flex;
+}
+
+
+.head2{
+    display: flex;
+    border: 1px solid;
+    justify-content: space-between;
+    height: 40px;
+    width :100%;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+.head2 p{
+    color: white;
+    font-size: small;
+    margin-left: 40%;
+    padding-top: 10px;
+}
+
+.head2 p span{
+    text-decoration: underline;
+    }
+
+        
+.edit2{ background-color: black;
+
+    color: aliceblue; 
+}
+
+
+nav{width: 100%;
+    height: 0px;
+background-color: white;
+display: flex;
+justify-content: space-around;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+
+}
+
+nav ul li{
+    list-style:none;
+}
+
+
+.search {display: flex;
+    justify-content: space-around;
+    
+}
+.emg{padding-right: 300%;
+    width: 80%;
+    display: flex;
+    height: 40px;
+    font-size: smaller;
+    border: none;
+    border-radius: 20px;
+}
+
+h1{
+    margin-left: 30px
+}
+nav.box{
+width: 500px;
+height: 30px;
+}
+
+.line{margin-top:3%;
+}
+
+.angletag{
+    margin-left: 20px;
+    padding: 30px;
+}
+
+.prodsect1{
+    width:80%;
+    height:80%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.polo1{ margin-left: 30px;
+
+}
+
+.life{ font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+
+}
+
+.polo1256{
+    width:60%;
+display: flex;
+padding-left: 30px;
+
+}
+
+.smbtn{
+padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.small{
+    background-color:#F0F0F0;
+    border-radius: 20px;
+    padding:10px 40px 10px 40px;
+    border: none;
+}
+.Large{ background-color: #000000;
+    border-radius: 20px;
+    padding:10px 40px 10px 40px;
+    border: none;
+    color: #F0F0F0;
+}
+
+.dis{background-color: #FF33331A;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+}
+.discun{
+    text-decoration: line-through;
+}
+
+.oper{
+display: flex;
+}
+.add{border-radius:20px;
+    padding:10px 80px 10px 80px;
+    margin-left:5px;
+    background-color: #000000;
+    border:none;
+    color:#F0F0F0;
+}
+
+.min{ border-radius:20px;
+    padding:10px 50px 10px 50px;
+background-color: #F0F0F0;
+color: #000000;
+}
+
+ .FAQ{ margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size:48px;
+    font-weight:400;
+}
+
+.sect2 { width:80%;
+    height: 80vh;
+}
+
+
+.all{ margin-top:40px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.vect{ 
+    justify-content: space-between;
+}
+
+
+.fam{
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    background-color: #F0F0F0;
+}
+.lat{  border-radius:20px;
+    padding:10px 30px 10px 30px;
+    background-color: #F0F0F0;
+}
+
+.rev{ 
+    background-color: #000000;
+     border-radius:20px;
+    padding:10px 50px 10px 50px;
+    color:#F0F0F0;
+}
+.reall{
+    margin-left:30px;
+}
+
+.samalx{ margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+}
+.sam{ margin-left: 30px;
+    text-align: justify;
+border: 60px;
+}
+
+.alex{
+    margin-left: 30px;
+    text-align: justify;
+border: 60px;
+}
+
+.etholiv{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.ethan{   margin-left: 30px;
+    text-align: justify;
+border: 60px;
+}
+
+.Olivia{
+
+    margin-left: 30px;
+    text-align: justify;
+border: 60px;
+}
+
+.liamAva{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.Liam{ margin-left: 30px;
+    text-align: justify;
+border: 60px;
+border: none;
+}
+
+.Ava{  margin-left: 30px;
+    text-align: justify;
+border: 60px;
+border: navajowhite;
+}
+
+.Load{ 
+    margin-top: 50px;
+    margin-left: 50%;
+}
+
+.sect3{ width:80%;
+    height: 130vh;
+
+}
+.you{ 
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+color: #000000;
+text-transform: uppercase;
+
+}
+
+.polograd{padding-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.trims{ display:flex;
+    justify-content: space-evenly;
+
+}
+
+.pogra{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p.pogra{
+    font-size: x-large;
+    margin-right: 30px;
+}
+
+.pritag{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btp{
+    background-color:#FF33331A;
+    border-radius: 10px;
+    border: none;
+}
+.red{
+    text-decoration: line-through;
+}
+
+.stay2{
+    margin-top: 100px;
+    background-color: #000000;
+    border: 50% 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-left: 12%;
+    margin-right: 15%;
+}
+
+
+.email{ margin-right: 40px;
+    padding: 10px 80px;
+    border-radius:40px;
+    color: #000000;
+
+}
+
+.emai{
+    margin-right: 40px;
+    padding: 15px 95px;
+    border-radius:40px;
+    color:#000000
+
+}
+.email img{
+    size: 20px;
+}
+
+.upto{ color: #F0F0F0;
+    margin-left: 40px;
+    font-size: 43px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.sect4{
+    margin-left: 70px;
+    background-color: #F0F0F0;
+}
+
+.help{ 
+    display: flex;
+    padding-top: 5%;
+    justify-content: space-evenly;
+    
+}
+
+.rights{
+    display: flex;
+    justify-content: space-between;
+}
+.alrights{
+    margin-left: 100px;
+}
+
+.badge2{
+    margin-right: 100px;
+}
+
+
+
+*{
+    margin: 0;
+}
+
+.head{
+    display: flex;
+    border: 1px solid;
+    justify-content: space-between;
+    height: 40px;
+    width :100%;
+    margin-bottom: 10px;
+    background-color: black;
+
+
+}
+ .head p{
+    color: white;
+    font-size: small;
+    margin-left: 40%;
+    padding-top: 10px;
+}
+
+.head p span{
+text-decoration: underline;
+}
+
+.edit{ background-color: black;
+
+    color: aliceblue; 
+}
+
+nav{width: 100%;
+    height: 0px;
+background-color: white;
+display: flex;
+justify-content: space-around;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+
+}
+
+nav ul li{
+    list-style:none;
+}
+
+.search {display: flex;
+    justify-content: space-around;
+    
+}
+.emg{padding-right: 300%;
+    width: 80%;
+    display: flex;
+    height: 40px;
+    font-size: smaller;
+    border: none;
+    border-radius: 20px;
+}
+
+h1{
+    margin-left: 30px
+}
+nav.box{
+width: 500px;
+height: 30px;
+}
+
+
+.angletag2 {
+    margin-left: 20px;
+    padding: 30px;
+}
+
+.catsect1{
+    width: 100%;
+    height: 100vhh;
+    
+}
+
+.casu{
+    display: flex;
+    justify-content: space-between;
+}
+.cas{
+    padding-left:20%;
+}
+
+.ritleft{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    margin-right: 35%;
+}
+.left{
+    margin-left: 40px;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row3{
+    display: flex;
+    justify-content: space-between;
+}
+.dis{
+    text-decoration: line-through;
+}
+.rowds{
+    background-color: #FF33331A;
+    border-radius: 10px;
+    border: none;
+}
+.down{
+    margin-left: 50%;
+}
+
+.stay4{
+    margin-top: 100px;
+    background-color: #000000;
+    border: 50% 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-left: 12%;
+    margin-right: 15%;
+}
+
+
+.email{ margin-right: 40px;
+    padding: 10px 80px;
+    border-radius:40px;
+    color: #000000;
+
+}
+
+.emai{
+    margin-right: 40px;
+    padding: 15px 95px;
+    border-radius:40px;
+    color:#000000
+
+}
+.email img{
+    size: 20px;
+}
+
+.upto{ color: #F0F0F0;
+    margin-left: 40px;
+    font-size: 43px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.sect4{
+    margin-left: 70px;
+    background-color: #F0F0F0;
+}
+
+.help{ 
+    display: flex;
+    padding-top: 5%;
+    justify-content: space-evenly;
+    
+}
+
+.rights{
+    display: flex;
+    justify-content: space-between;
+}
+.alrights{
+    margin-left: 100px;
+}
+
+.badge2{
+    margin-right: 100px;
+}
+
+
+
+
+*{ 
+    margin: 0;
+}
+
+
+
+.head2{
+    display: flex;
+    border: 1px solid;
+    justify-content: space-between;
+    height: 40px;
+    width :100%;
+    margin-bottom: 10px;
+    background-color: black;
+
+
+}
+ .head p{
+    color: white;
+    font-size: small;
+    margin-left: 40%;
+    padding-top: 10px;
+}
+
+.head p span{
+text-decoration: underline;
+}
+
+.edit{ background-color: black;
+
+    color: aliceblue; 
+}
+
+nav{width: 100%;
+    height: 0px;
+background-color: white;
+display: flex;
+justify-content: space-around;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+
+}
+
+nav ul li{
+    list-style:none;
+}
+
+.search {display: flex;
+    justify-content: space-around;
+    
+}
+.emg{padding-right: 300%;
+    width: 80%;
+    display: flex;
+    height: 40px;
+    font-size: smaller;
+    border: none;
+    border-radius: 20px;
+}
+
+h1{
+    margin-left: 30px
+}
+nav.box{
+width: 500px;
+height: 30px;
+}
+
+
+
+.angletag2 {
+    margin-left: 20px;
+    padding: 30px;
+}
+
+.cart1{
+    width: 80%;
+    height: 100vh;
+}
+
+.your{
+    font-size: 48px;
+    font-weight: 800;
+    color: #000000;
+    padding-left: 40px;
+}
+
+.both{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stay3{
+    margin-top: 100px;
+    background-color: #000000;
+    border: 50% 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-left: 12%;
+    margin-right: 15%;
+}
+
+
+.email{ margin-right: 40px;
+    padding: 10px 80px;
+    border-radius:40px;
+    color: #000000;
+
+}
+
+.emai{
+    margin-right: 40px;
+    padding: 15px 95px;
+    border-radius:40px;
+    color:#000000
+
+}
+.email img{
+    size: 20px;
+}
+
+.upto{ color: #F0F0F0;
+    margin-left: 40px;
+    font-size: 43px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.sect4{
+    margin-left: 70px;
+    background-color: #F0F0F0;
+}
+
+.help{ 
+    display: flex;
+    padding-top: 5%;
+    justify-content: space-evenly;
+    
+}
+
+.rights{
+    display: flex;
+    justify-content: space-between;
+}
+.alrights{
+    margin-left: 100px;
+}
+
+.badge2{
+    margin-right: 100px;
+}
